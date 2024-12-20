@@ -1,0 +1,49 @@
+steps:
+
+- id: 'tf init'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |-
+    terraform init -input=false
+
+- id: 'fetch tf plan'
+  name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:alpine'
+  entrypoint: 'bash'
+  args:
+    - '-c'
+    - |-
+      gsutil cp gs://${_TF_STATE_BUCKET}/tf-plans/${_BUILD_DIR}/${COMMIT_SHA}/plan.tfplan ${_BUILD_DIR}/plan.tfplan
+
+- id: 'tf apply'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  args: [
+      'apply',
+      '-input=false',
+      '-auto-approve',
+      './plan.tfplan',
+  ]
+
+
+- id: 'tf output as json'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  entrypoint: 'ash'
+  dir: ${_BUILD_DIR}
+  args:
+    - '-c'
+    - |-
+      terraform output -json > ./tf_output.json
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+artifacts:
+  objects:
+    location: 'gs://${_TF_STATE_BUCKET}/tf-plans/${_BUILD_DIR}/${COMMIT_SHA}'
+    paths: ['${_BUILD_DIR}/tf_output.json']
+
+
+timeout: 1800s

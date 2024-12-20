@@ -1,0 +1,24 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore local configuration files
+*.env
+*.local
+
+run_locally.sh
+
+# Ignore test files and directories
+tests/
+*.pytest_cache
+
+# Ignore Dockerfile and cloudbuild.yaml if not needed in the image
+Dockerfile
+cloudbuild.yaml

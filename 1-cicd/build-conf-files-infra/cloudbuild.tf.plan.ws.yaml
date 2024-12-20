@@ -1,0 +1,55 @@
+steps:
+
+- id: 'tf init'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |-
+    terraform init -input=false
+
+- id: 'tf check format'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  args: [
+      'fmt',
+      '-check',
+      '-recursive',
+  ]
+
+- id: 'tf validate'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  args: [
+      'validate',
+  ]
+
+- id: 'tf select workspace'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  entrypoint: 'ash'
+  dir: ${_BUILD_DIR}
+  args:
+    - '-c'
+    - |-
+      terraform workspace select ${_TF_WORKSPACE} || terraform workspace new ${_TF_WORKSPACE}
+
+- id: 'tf plan'
+  name: 'hashicorp/terraform:${_TERRAFORM_VERSION}'
+  dir: ${_BUILD_DIR}
+  args: [
+      'plan',
+      '-out=plan.tfplan',
+      '-input=false',
+      '-var-file=envs/${_TF_WORKSPACE}.tfvars',
+  ]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  env:
+    - 'TF_VAR_terraform_state_bucket=$_STATE_BUCKET_NAME'
+
+artifacts:
+  objects:
+    location: 'gs://${_TF_STATE_BUCKET}/tf-plans/${_BUILD_DIR}/${_TF_WORKSPACE}/${COMMIT_SHA}'
+    paths: ['${_BUILD_DIR}/plan.tfplan']

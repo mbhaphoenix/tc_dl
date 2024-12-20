@@ -1,0 +1,11 @@
+id,name,email,phone,address
+1,John Doe,john.doe@example.com,555-1234,"123 Elm St, Springfield, IL"
+2,Jane Smith,jane.smith@example.com,555-5678,"456 Oak St, Shelbyville, IL"
+3,Michael Johnson,michael.johnson@example.com,555-8765,"789 Pine St, Capital City, IL"
+4,Emily Davis,emily.davis@example.com,555-4321,"101 Maple St, Springfield, IL"
+5,David Lee,david.lee@example.com,555-8763,"202 Birch St, Oakwood, IL"
+6,Susan Clark,susan.clark@example.com,555-3456,"303 Cedar St, Riverton, IL"
+7,Robert Walker,robert.walker@example.com,555-7654,"404 Willow St, Centerville, IL"
+8,Linda Harris,linda.harris@example.com,555-9087,"505 Redwood St, Springfield, IL"
+9,James Young,james.young@example.com,555-6789,"606 Ash St, Lakewood, IL"
+10,Karen King,karen.king@example.com,555-2345,"707 Cherry St, Oakwood, IL"

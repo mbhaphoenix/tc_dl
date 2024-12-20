@@ -1,0 +1,35 @@
+# Start of Selection
+# Python cache files
+**/app/__pycache__/
+**/app/*.pyc
+**/app/*.pyo
+**/app/*.pyd
+
+# Virtual environment directories
+**/venv/
+**/env/
+**/.venv/
+
+# Local configuration files
+**/*.env
+
+# Ignore IDE/editor specific files
+**/.vscode/
+**/.idea/
+**/*.swp
+
+# Ignore test cache files
+**/*.pytest_cache
+
+
+# Ignore compiled files
+**/*.egg-info/
+**/dist/
+**/build/
+
+# Ignore Terraform files
+**/*.tfstate*
+**/.terraform/
+
+*.bkp
+*.dtmp

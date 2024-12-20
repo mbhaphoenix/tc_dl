@@ -1,0 +1,43 @@
+steps:
+  # Run tests
+  - id: "run_tests"
+    name: "python:3.11-slim"
+    dir: "app"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        pip install -r requirements.txt
+        ./run_tests.sh
+
+  # Build the container image
+  - id: "build_image"
+    name: "gcr.io/cloud-builders/docker"
+    dir: "app"
+    args:
+      ["build", "-t", "${_IMAGE}:$COMMIT_SHA", "-t", "${_IMAGE}:latest", "."]
+
+  # Push the container image to Artifact Registry
+  - id: "push_image"
+    name: "gcr.io/cloud-builders/docker"
+    args: ["push", "--all-tags", "${_IMAGE}"]
+
+  # Update only the application container
+  - id: "update_container"
+    name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - "compute"
+      - "instances"
+      - "update-container"
+      - "${_INSTANCE_NAME}"
+      - "--container-image"
+      - "${_IMAGE}:latest"
+      - "--zone"
+      - "${_ZONE}"
+
+images:
+  - "${_IMAGE}:$COMMIT_SHA"
+  - "${_IMAGE}:latest"
+
+options:
+  logging: CLOUD_LOGGING_ONLY

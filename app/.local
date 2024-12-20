@@ -1,0 +1,6 @@
+DB_HOST=127.0.0.1
+DB_USER=fast_api_app_user
+DB_PASSWORD_SECRET_ID=your_secret_id
+DB_CONNECTION_NAME=prj-infra-dev-f265:europe-west1:mysql-dev-cce68c14
+DB_NAME=tc_dc_db
+DATA_BUCKET_NAME=bkt-prj-infra-dev-f265-data

@@ -1,0 +1,201 @@
+product_id,product_name,category,brand,price,stock_quantity
+P0001,Printer,Accessories,GadgetPro,179.66,448
+P0002,Mouse,Accessories,OfficePlus,904.53,359
+P0003,Smartphone,Electronics,GadgetPro,1035.15,666
+P0004,Monitor,Office Supplies,GadgetPro,1240.67,323
+P0005,Printer,Accessories,SmartWare,966.35,145
+P0006,Keyboard,Office Supplies,GadgetPro,129.68,886
+P0007,Webcam,Accessories,OfficePlus,977.75,727
+P0008,Keyboard,Electronics,OfficePlus,1198.88,996
+P0009,Monitor,Electronics,SmartWare,944.85,710
+P0010,Mouse,Electronics,OfficePlus,1375.57,956
+P0011,Keyboard,Office Supplies,SmartWare,700.79,88
+P0012,Printer,Accessories,GadgetPro,335.74,137
+P0013,Tablet,Accessories,GadgetPro,1291.0,85
+P0014,Laptop,Accessories,GadgetPro,1357.2,187
+P0015,Keyboard,Accessories,GadgetPro,96.11,929
+P0016,Keyboard,Accessories,TechCorp,1372.61,26
+P0017,Headphones,Electronics,OfficePlus,1351.73,394
+P0018,Smartphone,Electronics,OfficePlus,780.01,150
+P0019,Laptop,Electronics,OfficePlus,1432.54,351
+P0020,Headphones,Electronics,OfficePlus,1197.89,74
+P0021,Laptop,Electronics,TechCorp,23.93,647
+P0022,Printer,Office Supplies,SmartWare,1221.54,460
+P0023,Tablet,Electronics,OfficePlus,1387.05,160
+P0024,Printer,Office Supplies,OfficePlus,849.79,281
+P0025,Webcam,Accessories,OfficePlus,1085.4,83
+P0026,Mouse,Accessories,SmartWare,1460.55,712
+P0027,Keyboard,Electronics,GadgetPro,87.72,731
+P0028,Printer,Accessories,SmartWare,1044.64,188
+P0029,Mouse,Accessories,OfficePlus,937.28,23
+P0030,Smartphone,Accessories,TechCorp,746.11,362
+P0031,Laptop,Office Supplies,GadgetPro,499.97,134
+P0032,Smartphone,Office Supplies,OfficePlus,1175.06,953
+P0033,Webcam,Office Supplies,OfficePlus,480.38,670
+P0034,Monitor,Electronics,TechCorp,1478.82,199
+P0035,Webcam,Accessories,OfficePlus,481.47,439
+P0036,Tablet,Electronics,OfficePlus,1097.86,840
+P0037,Smartphone,Accessories,GadgetPro,1250.58,101
+P0038,Tablet,Office Supplies,GadgetPro,1388.79,479
+P0039,Mouse,Electronics,GadgetPro,347.31,255
+P0040,Printer,Electronics,OfficePlus,96.82,318
+P0041,Tablet,Electronics,TechCorp,1144.25,753
+P0042,Keyboard,Office Supplies,OfficePlus,1041.71,158
+P0043,Smartphone,Accessories,TechCorp,1323.36,876
+P0044,Keyboard,Accessories,SmartWare,374.99,516
+P0045,Printer,Office Supplies,TechCorp,283.74,311
+P0046,Tablet,Accessories,TechCorp,1473.95,597
+P0047,Monitor,Office Supplies,GadgetPro,960.0,915
+P0048,Monitor,Office Supplies,SmartWare,167.84,616
+P0049,Headphones,Electronics,GadgetPro,429.62,926
+P0050,Monitor,Electronics,GadgetPro,978.53,237
+P0051,Webcam,Accessories,GadgetPro,210.65,154
+P0052,Webcam,Accessories,TechCorp,365.19,958
+P0053,Headphones,Electronics,GadgetPro,789.36,876
+P0054,Headphones,Accessories,SmartWare,600.97,579
+P0055,Mouse,Office Supplies,OfficePlus,1319.49,910
+P0056,Headphones,Electronics,TechCorp,485.08,199
+P0057,Laptop,Office Supplies,OfficePlus,522.08,804
+P0058,Monitor,Electronics,TechCorp,500.66,91
+P0059,Smartphone,Electronics,TechCorp,1025.49,835
+P0060,Keyboard,Office Supplies,GadgetPro,1459.66,934
+P0061,Laptop,Office Supplies,TechCorp,706.25,644
+P0062,Keyboard,Electronics,TechCorp,621.27,153
+P0063,Tablet,Office Supplies,SmartWare,701.65,982
+P0064,Monitor,Office Supplies,SmartWare,843.94,385
+P0065,Smartphone,Accessories,SmartWare,1087.03,715
+P0066,Keyboard,Office Supplies,TechCorp,187.24,863
+P0067,Mouse,Electronics,GadgetPro,262.52,832
+P0068,Headphones,Accessories,SmartWare,990.26,217
+P0069,Smartphone,Office Supplies,OfficePlus,1267.33,780
+P0070,Printer,Electronics,SmartWare,538.61,997
+P0071,Tablet,Accessories,TechCorp,587.22,841
+P0072,Monitor,Electronics,TechCorp,1332.15,977
+P0073,Webcam,Electronics,GadgetPro,960.51,897
+P0074,Smartphone,Office Supplies,TechCorp,1096.47,938
+P0075,Mouse,Accessories,OfficePlus,1421.19,26
+P0076,Mouse,Accessories,GadgetPro,427.43,903
+P0077,Printer,Accessories,OfficePlus,1009.98,540
+P0078,Printer,Electronics,GadgetPro,1065.93,484
+P0079,Laptop,Accessories,OfficePlus,408.25,127
+P0080,Webcam,Accessories,OfficePlus,1307.89,658
+P0081,Laptop,Office Supplies,GadgetPro,812.37,20
+P0082,Tablet,Accessories,SmartWare,45.18,935
+P0083,Headphones,Electronics,SmartWare,244.4,837
+P0084,Smartphone,Electronics,GadgetPro,686.21,748
+P0085,Smartphone,Electronics,OfficePlus,241.19,576
+P0086,Mouse,Office Supplies,OfficePlus,815.86,643
+P0087,Webcam,Accessories,GadgetPro,1477.86,794
+P0088,Keyboard,Office Supplies,SmartWare,861.09,958
+P0089,Mouse,Accessories,OfficePlus,124.06,717
+P0090,Headphones,Office Supplies,GadgetPro,1133.36,812
+P0091,Keyboard,Accessories,OfficePlus,1403.58,832
+P0092,Laptop,Accessories,TechCorp,676.57,852
+P0093,Mouse,Electronics,TechCorp,482.1,790
+P0094,Webcam,Office Supplies,GadgetPro,1279.61,140
+P0095,Smartphone,Office Supplies,TechCorp,1010.36,437
+P0096,Headphones,Office Supplies,GadgetPro,149.53,182
+P0097,Webcam,Electronics,OfficePlus,57.86,528
+P0098,Webcam,Office Supplies,OfficePlus,1379.99,966
+P0099,Smartphone,Office Supplies,SmartWare,706.42,984
+P0100,Webcam,Office Supplies,TechCorp,816.97,936
+P0101,Mouse,Accessories,SmartWare,996.54,483
+P0102,Smartphone,Electronics,SmartWare,626.6,939
+P0103,Mouse,Electronics,SmartWare,87.03,543
+P0104,Keyboard,Accessories,OfficePlus,1346.51,50
+P0105,Monitor,Electronics,GadgetPro,1010.48,930
+P0106,Headphones,Electronics,TechCorp,1181.25,305
+P0107,Mouse,Accessories,SmartWare,708.28,186
+P0108,Mouse,Electronics,SmartWare,1146.95,969
+P0109,Laptop,Office Supplies,GadgetPro,1193.05,132
+P0110,Printer,Office Supplies,GadgetPro,1431.08,4
+P0111,Printer,Electronics,GadgetPro,499.24,510
+P0112,Keyboard,Accessories,SmartWare,417.61,113
+P0113,Webcam,Accessories,GadgetPro,314.05,675
+P0114,Webcam,Accessories,OfficePlus,93.16,210
+P0115,Tablet,Office Supplies,SmartWare,441.33,91
+P0116,Webcam,Electronics,GadgetPro,825.94,960
+P0117,Keyboard,Accessories,OfficePlus,122.38,163
+P0118,Printer,Office Supplies,OfficePlus,353.1,806
+P0119,Laptop,Accessories,GadgetPro,416.99,189
+P0120,Printer,Office Supplies,TechCorp,22.91,973
+P0121,Headphones,Office Supplies,SmartWare,520.91,540
+P0122,Tablet,Accessories,TechCorp,1445.89,648
+P0123,Mouse,Office Supplies,TechCorp,151.19,160
+P0124,Mouse,Electronics,GadgetPro,702.36,506
+P0125,Tablet,Electronics,OfficePlus,440.39,591
+P0126,Smartphone,Accessories,SmartWare,405.79,385
+P0127,Webcam,Electronics,SmartWare,591.6,287
+P0128,Printer,Accessories,TechCorp,321.0,158
+P0129,Headphones,Electronics,TechCorp,799.46,434
+P0130,Webcam,Electronics,GadgetPro,1121.12,704
+P0131,Printer,Electronics,GadgetPro,231.02,374
+P0132,Smartphone,Electronics,GadgetPro,158.84,146
+P0133,Keyboard,Accessories,OfficePlus,68.15,264
+P0134,Webcam,Office Supplies,TechCorp,528.01,773
+P0135,Webcam,Electronics,GadgetPro,1253.44,961
+P0136,Monitor,Accessories,GadgetPro,1115.21,759
+P0137,Tablet,Office Supplies,OfficePlus,225.16,264
+P0138,Tablet,Electronics,SmartWare,1249.06,581
+P0139,Printer,Accessories,TechCorp,327.17,466
+P0140,Smartphone,Office Supplies,TechCorp,627.1,811
+P0141,Keyboard,Electronics,OfficePlus,985.08,363
+P0142,Smartphone,Accessories,OfficePlus,222.44,547
+P0143,Laptop,Accessories,GadgetPro,450.65,797
+P0144,Mouse,Electronics,GadgetPro,99.44,924
+P0145,Webcam,Accessories,TechCorp,301.62,74
+P0146,Laptop,Office Supplies,OfficePlus,1062.3,441
+P0147,Webcam,Office Supplies,TechCorp,1244.35,235
+P0148,Mouse,Electronics,TechCorp,1098.28,585
+P0149,Laptop,Accessories,OfficePlus,466.13,778
+P0150,Smartphone,Office Supplies,SmartWare,1417.99,252
+P0151,Laptop,Office Supplies,OfficePlus,1046.23,924
+P0152,Laptop,Office Supplies,TechCorp,1249.35,96
+P0153,Printer,Accessories,OfficePlus,1313.35,920
+P0154,Smartphone,Office Supplies,GadgetPro,482.86,458
+P0155,Tablet,Office Supplies,OfficePlus,628.63,392
+P0156,Printer,Accessories,GadgetPro,562.51,476
+P0157,Headphones,Electronics,TechCorp,200.27,222
+P0158,Laptop,Electronics,TechCorp,525.41,671
+P0159,Monitor,Accessories,GadgetPro,1029.21,403
+P0160,Printer,Electronics,OfficePlus,1357.98,172
+P0161,Webcam,Accessories,OfficePlus,256.85,779
+P0162,Keyboard,Office Supplies,GadgetPro,908.58,356
+P0163,Tablet,Accessories,TechCorp,648.2,294
+P0164,Monitor,Electronics,SmartWare,1108.66,626
+P0165,Tablet,Office Supplies,GadgetPro,1004.99,335
+P0166,Keyboard,Accessories,OfficePlus,563.66,999
+P0167,Smartphone,Accessories,TechCorp,1282.44,745
+P0168,Smartphone,Accessories,OfficePlus,333.11,538
+P0169,Smartphone,Office Supplies,SmartWare,470.89,841
+P0170,Webcam,Accessories,OfficePlus,409.23,46
+P0171,Laptop,Electronics,OfficePlus,1214.01,703
+P0172,Tablet,Office Supplies,SmartWare,385.22,370
+P0173,Tablet,Accessories,TechCorp,848.35,422
+P0174,Smartphone,Office Supplies,OfficePlus,275.39,961
+P0175,Headphones,Accessories,OfficePlus,803.7,785
+P0176,Webcam,Electronics,OfficePlus,632.94,836
+P0177,Printer,Electronics,SmartWare,733.09,228
+P0178,Laptop,Accessories,SmartWare,1448.3,112
+P0179,Smartphone,Electronics,GadgetPro,828.15,380
+P0180,Laptop,Accessories,SmartWare,502.08,676
+P0181,Monitor,Office Supplies,SmartWare,1198.6,491
+P0182,Mouse,Office Supplies,SmartWare,583.92,864
+P0183,Webcam,Electronics,SmartWare,1209.37,883
+P0184,Monitor,Office Supplies,SmartWare,632.8,705
+P0185,Keyboard,Accessories,OfficePlus,1459.94,351
+P0186,Smartphone,Electronics,GadgetPro,1242.13,980
+P0187,Monitor,Accessories,SmartWare,1290.91,106
+P0188,Monitor,Electronics,GadgetPro,188.29,654
+P0189,Headphones,Electronics,OfficePlus,107.69,999
+P0190,Keyboard,Electronics,OfficePlus,965.17,710
+P0191,Headphones,Electronics,OfficePlus,1284.2,930
+P0192,Printer,Electronics,OfficePlus,666.56,864
+P0193,Monitor,Electronics,SmartWare,241.22,566
+P0194,Smartphone,Electronics,OfficePlus,1474.0,770
+P0195,Mouse,Office Supplies,GadgetPro,640.34,862
+P0196,Smartphone,Electronics,SmartWare,1342.8,369
+P0197,Webcam,Electronics,TechCorp,1383.52,880
+P0198,Tablet,Electronics,OfficePlus,430.62,567
+P0199,Tablet,Electronics,TechCorp,1144.85,985
+P0200,Laptop,Accessories,SmartWare,964.4,615
